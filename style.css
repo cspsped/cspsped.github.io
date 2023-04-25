@@ -1,0 +1,108 @@
+body {
+    background-image: url("stuff/back.png");
+}
+
+#buttons {
+    background-color: rgba(0,0,0,0.07);
+    width: 600px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    position: relative;
+}
+
+#tileset {
+    background-color: rgba(0,0,0,0.07);
+    width: 600px;
+    height: 100px;
+    border-bottom: 1px dashed black;
+    position: relative;
+    overflow: scroll;
+}
+
+#upload {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+}
+
+#selected {
+    background-color: rgba(0,0,0,0.07);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px dashed black;
+}
+
+#tiles {
+    position: relative;
+    top: 40px;
+}
+
+#tools {
+    background-color: rgba(0,0,0,0.07);
+    width: 600px;
+    height: 30px;
+    border-bottom: 1px dashed black;
+    position: relative;
+    overflow: scroll;
+    font-size: 10px;
+}
+
+#sizer {
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+}
+
+#width {
+    font-size: 10px;
+}
+
+#height {
+    font-size: 10px;
+}
+
+#set {
+    font-size: 10px;
+}
+
+#dinfo {
+    position: relative;
+    width: 250px;
+}
+
+#info {
+    position: relative;
+    top: 7px;
+}
+
+#options {
+    width: 180px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#bg {
+    font-size: 10px;
+}
+
+#save {
+    font-size: 10px;
+}
+
+select {
+    font-size: 10px;
+}
+
+#map {
+    background-color: rgba(0,0,0,0.07);
+    width: 600px;
+    height: 500px;
+    border-bottom: 1px dashed black;
+    position: relative;
+    overflow: scroll;
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<title>cspsped</title>
+<link rel='stylesheet' href='style.css'/>
+<center>
+    <div id='buttons'>
+        <img src='stuff/psp.png'/>
+        <a target='_blank' href=''><img src='stuff/github.gif'/></a>
+        <a target='_blank' href='http://www.wtfpl.net/'><img src='stuff/wtfpl.png'/></a>
+        <img src='stuff/linux.gif'/>
+        <a target='_blank' href='https://kubuntu.org/'><img src='stuff/kubuntu.png'/></a>
+        <img src='stuff/green.gif'/>
+    </div>
+    <div id='tileset'>
+        <input type='file' accept='image/png' id='upload'/>
+        <img src='' id='tiles' draggable='false'/>
+        <canvas id='selected' width='32' height='32'>
+    </div>
+    <div id='tools'>
+        <div id='dinfo'><a id='info'><marquee scrollamount='3'>welcome to cspsped</marquee></a></div>
+        <div id='sizer'>
+            <input type='text' id='width' placeholder='width' size='2'/>
+            <a>X</a>
+            <input type='text' id='height' placeholder='height' size='2'/>
+            <input type='button' id='set' value='set size'/>
+        </div>
+        <div id='options'>
+            <input type='button' id='bg' value='bg' title='0'/>
+            <input type='button' id='save' value='save' title='download or console'/>
+            <select>
+                <option id='draw'>draw</option>
+                <option id='erase'>erase</option>
+                <option id='collision'>collision</option>
+                <option id='t_spawn'>t_spawn</option>
+                <option id='ct_spawn'>ct_spawn</option>
+                <option id='waypoint'>waypoint</option>
+            </select>
+        </div>
+    </div>
+    <div id='map'></div>
+</center>
+<script type="text/javascript" src="cspsped.js"></script>
+</html>
